@@ -11,7 +11,7 @@ public class Main {
             p.add(new Point(randx,randy));
         }
 
-        ClosetPair.closestPoint(p);
+        //ClosestPair.closestPoint(p);
         ConvexHull.hullCalc(p);
     }
 }
