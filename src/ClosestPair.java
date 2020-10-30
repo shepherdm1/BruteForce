@@ -25,5 +25,4 @@ public class ClosetPair {
 
         return d;
     }
-    
 }
