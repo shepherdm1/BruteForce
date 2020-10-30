@@ -13,14 +13,12 @@ public class ClosetPair {
         ArrayList<Point> arrL = new ArrayList<Point>();
 
         Integer d = null ;
-        int x1 = 2;
-        int x2 = -2;
-        int y1 = 2;
-        int y2 = -3;
-        int formula = (int) (Math.sqrt(Math.pow((x1-x2),2))+ (Math.pow((y1-y2),2)));
-        for(int i=1;i < arrL.size(); i++ ){
-            for(int j=i+1;i < arrL.size();j++ ){
-                d = (Math.min(d, formula));
+        int formula = (int) ();
+
+
+        for(int i=1;i < p.size(); i++ ){
+            for(int j=i+1;j < p.size();j++ ){
+                d = (Math.min(d, Math.sqrt(Math.pow((p.get(i).x-x2),2))+ (Math.pow((y1-y2),2))));
                 
             }
         }
