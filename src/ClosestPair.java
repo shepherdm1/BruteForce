@@ -1,4 +1,3 @@
-package closetpair;
 import java.awt.Point;
 import java.lang.Math;
 import java.util.ArrayList;
@@ -25,9 +24,6 @@ public class ClosetPair {
 
 
         return d;
-    }
-    public static void main(String[] args) {
-        // TODO code application logic here
     }
     
 }
