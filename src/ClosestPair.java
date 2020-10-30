@@ -10,7 +10,7 @@ public class ClosetPair {
     
     public static Integer closestPoint(ArrayList<Point> p){
 
-         Double d = Double.POSITIVE_INFINITY ;
+ Double d = Double.POSITIVE_INFINITY ;
 
         for(int i=0;i < p.size(); i++ ){
             for(int j=i+1;j < p.size();j++ ){
@@ -20,7 +20,5 @@ public class ClosetPair {
         }
 
 
-
         return d;
     }
-}
